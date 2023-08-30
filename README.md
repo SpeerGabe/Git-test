@@ -1,0 +1,1 @@
+I plan to use this git for practice in github and using repositories. Also in combining directories and files.
