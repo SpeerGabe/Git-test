@@ -1,0 +1,12 @@
+CC = g++
+CFLAGS = -g -Wall -Wextra
+
+default: hello
+
+hello:   main.o
+        $(CC) $(CFlags) -o hello main.o
+main.o: main.cpp
+        $(CC) $(CFLAGS) -c main.cpp
+
+clean:
+        $(RM) hello *.o *~
